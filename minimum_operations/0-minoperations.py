@@ -10,6 +10,7 @@ If n is impossible to achieve, return 0
 
 
 def minOperations(n):
+    """ Minimum Operations needed to get n H characters """
     y = int(n)  # n at the start of the function
     if n <= 1:
         return 0
